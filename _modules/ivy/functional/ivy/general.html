@@ -1814,7 +1814,7 @@
 <span class="sd">    ----------</span>
 <span class="sd">    receiver</span>
 <span class="sd">        Function or class constructor</span>
-<span class="sd">    </span>
+
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
 <span class="sd">    ret</span>
@@ -1828,10 +1828,10 @@
 
 <span class="sd">    &gt;&gt;&gt; x = ivy.arg_names(ivy.optimizers.Adam)</span>
 <span class="sd">    &gt;&gt;&gt; print(x)</span>
-<span class="sd">    [&#39;lr&#39;, &#39;beta1&#39;, &#39;beta2&#39;, &#39;epsilon&#39;, &#39;inplace&#39;, &#39;stop_gradients&#39;, &#39;compile_on_next_step&#39;, &#39;device&#39;]</span>
+<span class="sd">    [&#39;lr&#39;, &#39;beta1&#39;, &#39;beta2&#39;, &#39;epsilon&#39;, &#39;inplace&#39;,</span>
+<span class="sd">    &#39;stop_gradients&#39;, &#39;compile_on_next_step&#39;, &#39;device&#39;]</span>
 
 <span class="sd">    &quot;&quot;&quot;</span>
-
     <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">inspect</span><span class="o">.</span><span class="n">signature</span><span class="p">(</span><span class="n">receiver</span><span class="p">)</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span></div>
 
 
@@ -3233,7 +3233,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2020, Ivy Team.</p>
+    <p>&#169; Copyright 2020-2022, Ivy Team.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
